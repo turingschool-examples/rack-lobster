@@ -8,7 +8,7 @@ class HackLobster
   end
 
   def call(env)
-    # 1. What is this line doing? Why? Hint: see number 3 below.
+    # 1. What is this line doing? Why? Hint: see number 2 below.
     @status, @headers, @response = @app.call(env)
 
     # 5. What happens if we comment this line out?
@@ -20,7 +20,7 @@ class HackLobster
 
   def each(&block)
     # 3. Where does `block` come from?
-    block.call(say_hello) # Check out the method defined below
+    block.call(say_hello) # Check out the `say_hello` method defined below
     @response.each(&block)
   end
 
