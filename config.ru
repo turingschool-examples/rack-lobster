@@ -26,6 +26,7 @@ class HackLobster
 
   private
   def say_hello
+    ""
     # This is where you put your HTML
     # 4. Get it to output your name in the heading.
     #   * In the root of this directory, run `rackup`
