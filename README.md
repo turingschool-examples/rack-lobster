@@ -1,6 +1,6 @@
 # Hacking Rack::Lobster
 
-This is a sample Rack app using the built in `Rack::Lobster` class. The pupose is to be able to
+This is a sample Rack app using the built in `Rack::Lobster` class. The purpose is to be able to
 experiment with the standard Rack interface. The final goal is to get additional text to display
 in the browser by editing the contents of the `config.ru` file.
 
